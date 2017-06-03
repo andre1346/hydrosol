@@ -13,8 +13,8 @@
 	<meta name="robots" content="noodp" />
 
 	<!-- Link StyleSheets -->
-	<!%= render "stylesheet.html", assigns %>
-	<link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+	<%= render "stylesheet.html", assigns %>
+	<link rel="stylesheet" href="<!%= static_path(@conn, "/css/app.css") %>">
 </head>
 
 <body class="home page-template page-template-template-home page-template-template-home-php page page-id-2 single-author page-accueil">
