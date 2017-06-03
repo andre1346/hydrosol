@@ -30,16 +30,14 @@ exports.config = {
       order: {
         before: [
           "vendor/css/font_google.css",
-          // Ajoute ici les fichiers que tu mets dans vendor/css
-          "css/style.css",
           "vendor/css/font_theme.css",
           "vendor/css/font_style.css",
           "vendor/css/font_awesome.css",
           "vendor/css/font_menu.css",
           "vendor/css/colorbox.css",
           "vendor/css/custom.css",
-          "vendor/css/responsive.css"
-
+          "vendor/css/responsive.css",
+          "css/style.css"
         ]
       }
     },

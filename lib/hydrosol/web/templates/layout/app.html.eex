@@ -13,7 +13,7 @@
 	<meta name="robots" content="noodp" />
 
 	<!-- Link StyleSheets -->
-	<%= render "stylesheet.html", assigns %>
+	<!%= render "stylesheet.html", assigns %>
 	<link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
 </head>
 
