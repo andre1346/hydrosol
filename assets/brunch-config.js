@@ -32,6 +32,9 @@ exports.config = {
           "vendor/css/font_google.css",
           // Ajoute ici les fichiers que tu mets dans vendor/css
           "css/style.css"
+          "vendor/css/font_theme.css"
+          "vendor/css/font_style.css"
+
 
         ]
       }
