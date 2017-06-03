@@ -1,0 +1,63 @@
+<footer id="colophon" class="site-footer" role="contentinfo">
+  <div id="leader" class="front">
+
+    <div id="icons-pack">
+      <!--<img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/graphics/icons-pack.png" alt="Symbols" />-->
+
+      <a href="#" class="current"><img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/footer/1.png" alt="Symbols" /></a>
+      <a href="#"><img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/footer/2.png" alt="Symbols" /></a>
+      <a href="#"><img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/footer/3.png" alt="Symbols" /></a>
+    </div>
+
+    <div id="taglines">
+      <h3 class="current">Leader de l ensemencement hydraulique</h3>
+      <h3>Économie, technologie et qualité supérieure!</h3>
+      <h3>Faites confiance à une équipe certifiée APPQ!</h3>
+    </div>
+
+
+  </div>
+
+  <div id="gazon">
+    <div class="c12">
+      <img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/graphics/homme-arrose.png" alt="homme" />
+      <div class="c3 left">
+        <h5>Paysagiste certifié AppQ</h5>
+        <a href="http://www.appq.org/fr/home" target="_blank"><img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/logos/appq.jpg" alt="APPQ" /></a>
+      </div>
+      <div class="c6 partenaires">
+        <h5>Fier partenaire</h5>
+
+        <div class="c3"><a href="https://www.ieca.org/" target="_blank"><img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/logos/IECA.jpg" alt="IECA" /></a></div>
+
+        <div class="c3"><a href="http://aapq.org/" target="_blank"><img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/logos/aapq.jpg" alt="AAPQ" /></a></div>
+        <div class="c3"><a href="http://www.escac.ca/" target="_blank"><img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/logos/logo-esca.jpg" alt="ESCA" /></a></div>
+        <div class="c3"><a href="https://lautorite.qc.ca/grand-public/" target="_blank"><img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/logos/logo-amf.jpg" alt="AMF" /></a></div>
+      </div>
+      <div class="c3 right">
+        <a href="/residentiel/#societe"><img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/graphics/cochon-orange.png" alt="icon-cochon" /></a>
+        <a href="/residentiel/#societe"><img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/logos/scdc2.jpg" alt="SCDC" /></a>
+        <!--<h5>5$ sont remis pour chaque sac</h5>-->
+        <h6><a href="/residentiel/#societe">En savoir + sur notre implication</a></h6>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-info c12">
+    <div class="c2"></div>
+    <div class="c8">
+      <p class="copyright">&copy; 2017 Hydrosol - Tous droits réservés</p>
+      <p class="legal">Le contenu de ce site est la propriété exclusive d Hydrosol. Ceci inclut les textes, logos et toute photographie. Toute reproduction, même partielle, assemblage, publication, édition, exposition publique ou utilisation à titre commerciale est interdite
+        sans autorisation préalable.</p>
+      <p class="copyright"><a href="/la-garantie/">La garantie hydrosol</a></p>
+      <p class="copyright"><a href="/politique-de-remboursement/">Politique de remboursement</a></p>
+
+      <p class="legal"><a href="http://www.codems.ca/" target="_blank" rel="nofollow">Conception web</a> : <a href="http://www.codems.ca/" target="_blank" rel="nofollow">Codems</a></p>
+    </div>
+    <div class="c2"></div>
+  </div>
+  <!-- .site-info -->
+
+  <a href="/demande-de-soumission-residentiel-ou-commercial/" id="fixedFoot">Demandez une soumission dès maintenant</a>
+
+</footer>

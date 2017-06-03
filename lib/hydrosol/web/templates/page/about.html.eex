@@ -1,0 +1,44 @@
+<header>
+  <h1>À propos</h1>
+</header>
+
+<div class="entry-content a-propos">
+
+  <section class="basic">
+    <div class="c12">
+      <h2>Mission</h2>
+      <p><span style="color: #000000;">Hydrosol a pour mission de devenir le chef de fil en matière d’ensemencement hydraulique, contrôle d’érosion et environnement dans le secteur résidentiel, commercial, routier et ainsi promouvoir son efficacité et ses nombreux avantages encore ici méconnus.</span></p>
+      <h3>Hydro-ensemencez pour une meilleure Qualité!</h3>
+    </div>
+  </section>
+
+  <section class="sectionImg green">
+    <div class="c12">
+      <h2>Vision</h2>
+      <div class="c3">
+        <figure><img src="http://hydrosol.ca/wp-content/uploads/2015/03/APropos-640x480.jpg" alt="" /></figure>
+      </div>
+      <div class="c9">
+        <p>En plus d’offrir un produit innovateur et adéquat à nos clients, notre objectif premier est de se démarquer par la qualité de nos produits et de nos procédés agronomiques en la matière qui sont à la fine pointe de la technologie. Hydrosol vous
+          permet d’obtenir des résultats à la hauteur de vos attentes, tout en travaillant pour l’environnement et pour la satisfaction de nos clients.</p>
+        <p>De plus, la technologie que représente l’ensemencement hydraulique est un procédé 100% naturel permettant d’obtenir des espaces plus verts à moindre cout. De plus, nos techniques uniques, jointes à notre savoir nous permettent de créer des projets
+          sur mesure défiant toutes conditions, peu importe l’endroit!</p>
+        <p>En tant qu’entreprise dans le domaine horticole, l’élément qui nous est le plus important est l’environnement. Nous tentons par tous les moyens d’utiliser et d’exécuter nos travaux de la façon la plus responsable et respectueuse envers l’environnement.
+          Nous croyons à ces produits éco-responsables.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+</div>
+
+</article>
+<!-- #post -->
+
+</div>
+<!-- #content -->
+
+
+</div>
+<!-- #main -->

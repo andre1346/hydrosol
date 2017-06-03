@@ -1,0 +1,56 @@
+<h2>Listing Residentiels</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Nom</th>
+      <th>Prenom</th>
+      <th>Address</th>
+      <th>Ville</th>
+      <th>Codepostal</th>
+      <th>Tel</th>
+      <th>Email</th>
+      <th>Info projet</th>
+      <th>Superficie</th>
+      <th>Complementaire</th>
+      <th>Pente</th>
+      <th>Fournisseur</th>
+      <th>Etat terrain</th>
+      <th>Easy access</th>
+      <th>Irrigation</th>
+      <th>Comment</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for residentiel <- @residentiels do %>
+    <tr>
+      <td><%= residentiel.nom %></td>
+      <td><%= residentiel.prenom %></td>
+      <td><%= residentiel.address %></td>
+      <td><%= residentiel.ville %></td>
+      <td><%= residentiel.codepostal %></td>
+      <td><%= residentiel.tel %></td>
+      <td><%= residentiel.email %></td>
+      <td><%= residentiel.info_projet %></td>
+      <td><%= residentiel.superficie %></td>
+      <td><%= residentiel.complementaire %></td>
+      <td><%= residentiel.pente %></td>
+      <td><%= residentiel.fournisseur %></td>
+      <td><%= residentiel.etat_terrain %></td>
+      <td><%= residentiel.easy_access %></td>
+      <td><%= residentiel.irrigation %></td>
+      <td><%= residentiel.comment %></td>
+
+      <td class="text-right">
+        <span><%= link "Show", to: residentiel_path(@conn, :show, residentiel), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Edit", to: residentiel_path(@conn, :edit, residentiel), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Delete", to: residentiel_path(@conn, :delete, residentiel), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Residentiel", to: residentiel_path(@conn, :new) %></span>

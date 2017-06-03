@@ -1,0 +1,900 @@
+<header>
+  <h1>Demande de soumission</h1>
+</header>
+
+<div class="entry-content demande-de-soumission-residentiel-ou-commercial">
+
+  <section class="basic">
+    <div class="c12">
+      <p class="text-center">Ce formulaire peut être utilisé afin de demander une soumission.</p>
+
+      <div class='gf_browser_chrome gform_wrapper' id='gform_wrapper_1' style='display:none'>
+        <form method='post' enctype='multipart/form-data' id='gform_1' action='/demande-de-soumission-residentiel-ou-commercial/'>
+          <div class='gform_body'>
+            <ul id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below'>
+              <li id='field_1_1' class='gfield gf_list_inline text-center titre field_sublabel_below field_description_below'><label class='gfield_label'>Votre demande de soumission concerne-t-elle une résidence ou un commerce?</label>
+                <div class='ginput_container ginput_container_radio'>
+                  <ul class='gfield_radio' id='input_1_1'>
+                    <li class='gchoice_1_1_0'><input name='input_1' type='radio' value='Residentiel' id='choice_1_1_0' tabindex='1' onclick='gf_apply_rules(1,[4,2,3,7,8,9,28,10,12,11,14,15,13,16,17,18,45,36,34,35,37,20,22,21,23,24,25,26,27,31,33,32,38,40,39,43,42,44,41]);' />
+                      <label for='choice_1_1_0' id='label_1_1_0'>Résidentiel</label>
+                    </li>
+                    <li class='gchoice_1_1_1'><input name='input_1' type='radio' value='Commercial' id='choice_1_1_1' tabindex='2' onclick='gf_apply_rules(1,[4,2,3,7,8,9,28,10,12,11,14,15,13,16,17,18,45,36,34,35,37,20,22,21,23,24,25,26,27,31,33,32,38,40,39,43,42,44,41]);' />
+                      <label for='choice_1_1_1' id='label_1_1_1'>Commercial</label>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li id='field_1_4' class='gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below'>
+                <h3 class="text-left accent2">Informations sur l’entreprise</h3></li>
+              <li id='field_1_2' class='gfield gf_left_half gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_2'>Nom de l&#039;entreprise<span class='gfield_required'>*</span></label>
+                <div class='ginput_container ginput_container_text'><input name='input_2' id='input_1_2' type='text' value='' class='medium' tabindex='3' /></div>
+              </li>
+              <li id='field_1_3' class='gfield gf_right_half gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_3'>Contact<span class='gfield_required'>*</span></label>
+                <div class='ginput_container ginput_container_text'><input name='input_3' id='input_1_3' type='text' value='' class='medium' tabindex='4' /></div>
+              </li>
+              <li id='field_1_7' class='gfield gf_left_half gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_7'>Ville<span class='gfield_required'>*</span></label>
+                <div class='ginput_container ginput_container_text'><input name='input_7' id='input_1_7' type='text' value='' class='large' tabindex='5' /></div>
+              </li>
+              <li id='field_1_8' class='gfield gf_left_fourth field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_8'>Code postal</label>
+                <div class='ginput_container ginput_container_text'><input name='input_8' id='input_1_8' type='text' value='' class='large' tabindex='6' /></div>
+              </li>
+              <li id='field_1_9' class='gfield gf_right_fourth gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_9'>Téléphone<span class='gfield_required'>*</span></label>
+                <div class='ginput_container ginput_container_phone'><input name='input_9' id='input_1_9' type='text' value='' class='large' tabindex='7' /></div>
+              </li>
+              <li id='field_1_28' class='gfield gf_left_half gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_28'>Adresse courriel<span class='gfield_required'>*</span></label>
+                <div class='ginput_container ginput_container_email'>
+                  <input name='input_28' id='input_1_28' type='text' value='' class='large' tabindex='8' />
+                </div>
+              </li>
+              <li id='field_1_10' class='gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below'>
+                <h3 class="text-left accent2">Informations sur le projet</h3></li>
+              <li id='field_1_12' class='gfield gf_right_half float field_sublabel_below field_description_below'><label class='gfield_label'>Type de services</label>
+                <div class='ginput_container ginput_container_radio'>
+                  <ul class='gfield_radio' id='input_1_12'>
+                    <li class='gchoice_1_12_0'><input name='input_12' type='radio' value='Ensemencement hydraulique' id='choice_1_12_0' tabindex='9' /><label for='choice_1_12_0' id='label_1_12_0'>Ensemencement hydraulique</label></li>
+                    <li class='gchoice_1_12_1'><input name='input_12' type='radio' value='Ensemencement mécanique' id='choice_1_12_1' tabindex='10' /><label for='choice_1_12_1' id='label_1_12_1'>Ensemencement mécanique</label></li>
+                    <li class='gchoice_1_12_2'><input name='input_12' type='radio' value='Terreautage Bio-organique' id='choice_1_12_2' tabindex='11' /><label for='choice_1_12_2' id='label_1_12_2'>Terreautage Bio-organique</label></li>
+                    <li class='gchoice_1_12_3'><input name='input_12' type='radio' value='Mise en place et nivellement de terre végétale' id='choice_1_12_3' tabindex='12' /><label for='choice_1_12_3' id='label_1_12_3'>Mise en place et nivellement de terre végétale</label></li>
+                    <li class='gchoice_1_12_4'><input name='input_12' type='radio' value='Travaux de plantation' id='choice_1_12_4' tabindex='13' /><label for='choice_1_12_4' id='label_1_12_4'>Travaux de plantation</label></li>
+                    <li class='gchoice_1_12_5'><input name='input_12' type='radio' value='Aménagement &amp; environnement' id='choice_1_12_5' tabindex='14' /><label for='choice_1_12_5' id='label_1_12_5'>Aménagement &amp; environnement</label></li>
+                    <li class='gchoice_1_12_6'><input name='input_12' type='radio' value='gf_other_choice' id='choice_1_12_6' tabindex='15' onfocus="jQuery(this).next('input').focus();" /><input id='input_1_12_other' name='input_12_other' type='text' value='Autre' aria-label='Autre'
+                        onfocus='jQuery(this).prev("input")[0].click(); if(jQuery(this).val() == "Autre") { jQuery(this).val(""); }' onblur='if(jQuery(this).val().replace(" ", "") == "") { jQuery(this).val("Autre"); }' tabindex='15' /></li>
+                  </ul>
+                </div>
+              </li>
+              <li id='field_1_11' class='gfield gf_left_half gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_11'>Nom du projet<span class='gfield_required'>*</span></label>
+                <div class='ginput_container ginput_container_text'><input name='input_11' id='input_1_11' type='text' value='' class='large' tabindex='16' /></div>
+              </li>
+              <li id='field_1_14' class='gfield gf_left_half field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_14'>Adresse du projet*</label>
+                <div class='ginput_container ginput_container_textarea'> <textarea name='input_14' id='input_1_14' class='textarea medium' tabindex='17' rows='10' cols='50'></textarea>
+                </div>
+              </li>
+              <li id='field_1_15' class='gfield gf_left_half gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_15'>Superficie à couvrir (m²)<span class='gfield_required'>*</span></label>
+                <div class='ginput_container ginput_container_text'><input name='input_15' id='input_1_15' type='text' value='' class='small' tabindex='18' /></div>
+              </li>
+              <li id='field_1_13' class='gfield gf_left_half custom-select gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_13'>Caractéristiques des travaux<span class='gfield_required'>*</span></label>
+                <div class='ginput_container ginput_container_select'><select name='input_13' id='input_1_13' class='medium gfield_select' tabindex='19'><option value='Projet routier/autoroute/MTQ' >Projet routier/autoroute/MTQ</option><option value='Projet municipaux' >Projet municipaux</option><option value='Parcs et espaces verts' >Parcs et espaces verts</option><option value='Golf/Terrains sportifs' >Golf/Terrains sportifs</option><option value='Condos/Résidences' >Condos/Résidences</option><option value='Autres' >Autres</option></select></div>
+              </li>
+              <li id='field_1_16' class='gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below'>
+                <h3 class="text-left accent2">Informations complémentaires</h3></li>
+              <li id='field_1_17' class='gfield gf_left_half custom-select field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_17'>Échéances des travaux</label>
+                <div class='ginput_container ginput_container_select'><select name='input_17' id='input_1_17' class='small gfield_select' tabindex='20'><option value='d’ici 1 mois' >d’ici 1 mois</option><option value='d’ici 1 à 3 mois' >d’ici 1 à 3 mois</option><option value='d’ici 3 à 6 mois' >d’ici 3 à 6 mois</option><option value='d’ici 6 mois à 1 an' >d’ici 6 mois à 1 an</option><option value='dans plus d’un an' >dans plus d’un an</option></select></div>
+              </li>
+              <li id='field_1_18' class='gfield gf_right_half custom-select gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_18'>Le terrain est-il facile d&#039;accès?<span class='gfield_required'>*</span></label>
+                <div class='ginput_container ginput_container_select'><select name='input_18' id='input_1_18' class='small gfield_select' tabindex='21'><option value='Oui' >Oui</option><option value='Non' >Non</option></select></div>
+              </li>
+              <li id='field_1_45' class='gfield gf_left_half field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_45'>Précisez :</label>
+                <div class='ginput_container ginput_container_text'><input name='input_45' id='input_1_45' type='text' value='' class='large' tabindex='22' /></div>
+              </li>
+              <li id='field_1_36' class='gfield gf_right_half field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_36'>Bordereaux, devis et plans</label>
+                <div class='ginput_container ginput_container_fileupload'><input type='hidden' name='MAX_FILE_SIZE' value='134217728' /><input name='input_36' id='input_1_36' type='file' class='medium' aria-describedby='extensions_message' tabindex='23' /><span id='extensions_message' class='screen-reader-text'></span></div>
+              </li>
+              <li id='field_1_34' class='gfield gf_left_half gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label'>Préparation terrain<span class='gfield_required'>*</span></label>
+                <div class='ginput_container ginput_container_radio'>
+                  <ul class='gfield_radio' id='input_1_34'>
+                    <li class='gchoice_1_34_0'><input name='input_34' type='radio' value='Nivellé  (prêt à ensemencer)' id='choice_1_34_0' tabindex='24' /><label for='choice_1_34_0' id='label_1_34_0'>Nivellé  (prêt à ensemencer)</label></li>
+                    <li class='gchoice_1_34_1'><input name='input_34' type='radio' value='Non-nivellé' id='choice_1_34_1' tabindex='25' /><label for='choice_1_34_1' id='label_1_34_1'>Non-nivellé</label></li>
+                    <li class='gchoice_1_34_2'><input name='input_34' type='radio' value='gf_other_choice' id='choice_1_34_2' tabindex='26' onfocus="jQuery(this).next('input').focus();" /><input id='input_1_34_other' name='input_34_other' type='text' value='Autre' aria-label='Autre'
+                        onfocus='jQuery(this).prev("input")[0].click(); if(jQuery(this).val() == "Autre") { jQuery(this).val(""); }' onblur='if(jQuery(this).val().replace(" ", "") == "") { jQuery(this).val("Autre"); }' tabindex='26' /></li>
+                  </ul>
+                </div>
+              </li>
+              <li id='field_1_35' class='gfield gf_right_half icon float gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label'>Pentes et dénivellation<span class='gfield_required'>*</span></label>
+                <div class='ginput_container ginput_container_radio'>
+                  <ul class='gfield_radio' id='input_1_35'>
+                    <li class='gchoice_1_35_0'><input name='input_35' type='radio' value='Plat' id='choice_1_35_0' tabindex='27' /><label for='choice_1_35_0' id='label_1_35_0'>Plat</label></li>
+                    <li class='gchoice_1_35_1'><input name='input_35' type='radio' value='5 % à 10 %' id='choice_1_35_1' tabindex='28' /><label for='choice_1_35_1' id='label_1_35_1'>5 % à 10 %</label></li>
+                    <li class='gchoice_1_35_2'><input name='input_35' type='radio' value='10 % à 25%' id='choice_1_35_2' tabindex='29' /><label for='choice_1_35_2' id='label_1_35_2'>10 % à 25%</label></li>
+                    <li class='gchoice_1_35_3'><input name='input_35' type='radio' value='25% et +' id='choice_1_35_3' tabindex='30' /><label for='choice_1_35_3' id='label_1_35_3'>25% et +</label></li>
+                  </ul>
+                </div>
+              </li>
+              <li id='field_1_37' class='gfield gf_left_half field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_37'>Spécifications et commentaires</label>
+                <div class='ginput_container ginput_container_textarea'>
+                  <textarea name='input_37' id='input_1_37' class='textarea medium' tabindex='31' rows='10' cols='50'></textarea>
+                </div>
+              </li>
+              <li id='field_1_20' class='gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below'>
+                <h3 class="text-left titre color-accent">Informations personnelles</h3></li>
+              <li id='field_1_22' class='gfield gf_left_half gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_22'>Nom<span class='gfield_required'>*</span></label>
+                <div class='ginput_container ginput_container_text'><input name='input_22' id='input_1_22' type='text' value='' class='large' tabindex='32' /></div>
+              </li>
+              <li id='field_1_21' class='gfield gf_right_half gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_21'>Prénom<span class='gfield_required'>*</span></label>
+                <div class='ginput_container ginput_container_text'><input name='input_21' id='input_1_21' type='text' value='' class='large' tabindex='33' /></div>
+              </li>
+              <li id='field_1_23' class='gfield gf_left_half gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_23'>Adresse<span class='gfield_required'>*</span></label>
+                <div class='ginput_container ginput_container_text'><input name='input_23' id='input_1_23' type='text' value='' class='large' tabindex='34' /></div>
+              </li>
+              <li id='field_1_24' class='gfield gf_right_half gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_24'>Ville<span class='gfield_required'>*</span></label>
+                <div class='ginput_container ginput_container_text'><input name='input_24' id='input_1_24' type='text' value='' class='large' tabindex='35' /></div>
+              </li>
+              <li id='field_1_25' class='gfield gf_left_fourth field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_25'>Code postal</label>
+                <div class='ginput_container ginput_container_text'><input name='input_25' id='input_1_25' type='text' value='' class='large' tabindex='36' /></div>
+              </li>
+              <li id='field_1_26' class='gfield gf_right_fourth custom gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_26'>Téléphone<span class='gfield_required'>*</span></label>
+                <div class='ginput_container ginput_container_phone'><input name='input_26' id='input_1_26' type='text' value='' class='large' tabindex='37' /></div>
+              </li>
+              <li id='field_1_27' class='gfield gf_right_half custom gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_27'>Adresse courriel<span class='gfield_required'>*</span></label>
+                <div class='ginput_container ginput_container_email'>
+                  <input name='input_27' id='input_1_27' type='text' value='' class='large' tabindex='38' />
+                </div>
+              </li>
+              <li id='field_1_31' class='gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below'>
+                <h3 class="text-left titre color-accent">Informations sur le projet</h3></li>
+              <li id='field_1_33' class='gfield gf_left_half field_sublabel_below field_description_below'><label class='gfield_label'>Type de services</label>
+                <div class='ginput_container ginput_container_radio'>
+                  <ul class='gfield_radio' id='input_1_33'>
+                    <li class='gchoice_1_33_0'><input name='input_33' type='radio' value='Ensemencement hydraulique' id='choice_1_33_0' tabindex='39' /><label for='choice_1_33_0' id='label_1_33_0'>Ensemencement hydraulique</label></li>
+                    <li class='gchoice_1_33_1'><input name='input_33' type='radio' value='Contrôle d&#039;érosion' id='choice_1_33_1' tabindex='40' /><label for='choice_1_33_1' id='label_1_33_1'>Contrôle d'érosion</label></li>
+                    <li class='gchoice_1_33_2'><input name='input_33' type='radio' value='Terreautage bio-organique' id='choice_1_33_2' tabindex='41' /><label for='choice_1_33_2' id='label_1_33_2'>Terreautage bio-organique</label></li>
+                    <li class='gchoice_1_33_3'><input name='input_33' type='radio' value='Ensemencement mécanique' id='choice_1_33_3' tabindex='42' /><label for='choice_1_33_3' id='label_1_33_3'>Ensemencement mécanique</label></li>
+                    <li class='gchoice_1_33_4'><input name='input_33' type='radio' value='Services spécialisés' id='choice_1_33_4' tabindex='43' /><label for='choice_1_33_4' id='label_1_33_4'>Services spécialisés</label></li>
+                    <li class='gchoice_1_33_5'><input name='input_33' type='radio' value='gf_other_choice' id='choice_1_33_5' tabindex='44' onfocus="jQuery(this).next('input').focus();" /><input id='input_1_33_other' name='input_33_other' type='text' value='Autre' aria-label='Autre'
+                        onfocus='jQuery(this).prev("input")[0].click(); if(jQuery(this).val() == "Autre") { jQuery(this).val(""); }' onblur='if(jQuery(this).val().replace(" ", "") == "") { jQuery(this).val("Autre"); }' tabindex='44' /></li>
+                  </ul>
+                </div>
+              </li>
+              <li id='field_1_32' class='gfield gf_right_half gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_32'>Superficie à couvrir (pi²) * minimum de 3000pi² requis<span class='gfield_required'>*</span></label>
+                <div class='ginput_container ginput_container_text'><input name='input_32' id='input_1_32' type='text' value='' class='small' tabindex='45' /></div>
+              </li>
+              <li id='field_1_38' class='gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below'>
+                <h3 class="text-left titre color-accent">Informations complémentaires</h3></li>
+              <li id='field_1_40' class='gfield gf_right_half icon float gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label'>Pentes et dénivellation<span class='gfield_required'>*</span></label>
+                <div class='ginput_container ginput_container_radio'>
+                  <ul class='gfield_radio' id='input_1_40'>
+                    <li class='gchoice_1_40_0'><input name='input_40' type='radio' value='Plat' id='choice_1_40_0' tabindex='46' /><label for='choice_1_40_0' id='label_1_40_0'>Plat</label></li>
+                    <li class='gchoice_1_40_1'><input name='input_40' type='radio' value='5 % à 10 %' id='choice_1_40_1' tabindex='47' /><label for='choice_1_40_1' id='label_1_40_1'>5 % à 10 %</label></li>
+                    <li class='gchoice_1_40_2'><input name='input_40' type='radio' value='10 % à 25%' id='choice_1_40_2' tabindex='48' /><label for='choice_1_40_2' id='label_1_40_2'>10 % à 25%</label></li>
+                    <li class='gchoice_1_40_3'><input name='input_40' type='radio' value='25% et +' id='choice_1_40_3' tabindex='49' /><label for='choice_1_40_3' id='label_1_40_3'>25% et +</label></li>
+                  </ul>
+                </div>
+              </li>
+              <li id='field_1_39' class='gfield gf_left_half gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label'>État du terrain<span class='gfield_required'>*</span></label>
+                <div class='ginput_container ginput_container_radio'>
+                  <ul class='gfield_radio' id='input_1_39'>
+                    <li class='gchoice_1_39_0'><input name='input_39' type='radio' value='Nivellé  (prêt à ensemencer)' id='choice_1_39_0' tabindex='50' /><label for='choice_1_39_0' id='label_1_39_0'>Nivellé  (prêt à ensemencer)</label></li>
+                    <li class='gchoice_1_39_1'><input name='input_39' type='radio' value='Non-nivellé' id='choice_1_39_1' tabindex='51' /><label for='choice_1_39_1' id='label_1_39_1'>Non-nivellé</label></li>
+                    <li class='gchoice_1_39_2'><input name='input_39' type='radio' value='gf_other_choice' id='choice_1_39_2' tabindex='52' onfocus="jQuery(this).next('input').focus();" /><input id='input_1_39_other' name='input_39_other' type='text' value='Autre' aria-label='Autre'
+                        onfocus='jQuery(this).prev("input")[0].click(); if(jQuery(this).val() == "Autre") { jQuery(this).val(""); }' onblur='if(jQuery(this).val().replace(" ", "") == "") { jQuery(this).val("Autre"); }' tabindex='52' /></li>
+                  </ul>
+                </div>
+              </li>
+              <li id='field_1_43' class='gfield gf_right_half field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_43'>De quel fournisseur ou paysagiste avez-vous acheté la terre?</label>
+                <div class='ginput_container ginput_container_text'><input name='input_43' id='input_1_43' type='text' value='' class='small' tabindex='53' /></div>
+              </li>
+              <li id='field_1_42' class='gfield gf_right_half custom-select gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_42'>Le terrain est-il facile d&#039;accès?<span class='gfield_required'>*</span></label>
+                <div class='ginput_container ginput_container_select'><select name='input_42' id='input_1_42' class='small gfield_select' tabindex='54'><option value='Oui' >Oui</option><option value='Non' >Non</option></select></div>
+              </li>
+              <li id='field_1_44' class='gfield gf_right_half custom-select gfield_contains_required field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_44'>Avez-vous un système d&#039;irrigation?<span class='gfield_required'>*</span></label>
+                <div class='ginput_container ginput_container_select'><select name='input_44' id='input_1_44' class='small gfield_select' tabindex='55'><option value='Oui' >Oui</option><option value='Non' selected='selected'>Non</option></select></div>
+              </li>
+              <li id='field_1_41' class='gfield gf_left_half field_sublabel_below field_description_below'><label class='gfield_label' for='input_1_41'>Spécifications et commentaires</label>
+                <div class='ginput_container ginput_container_textarea'>
+                  <textarea name='input_41' id='input_1_41' class='textarea medium' tabindex='56' rows='10' cols='50'></textarea>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_1' class='gform_button button' value='Soumettre' tabindex='57' onclick='if(window["gf_submitting_1"]){return false;}  window["gf_submitting_1"]=true;  ' />
+            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsImIxODhmMThiYzc0NmUyNGExZDMwYThjNzJmMzgyYmMxIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+
+          </div>
+        </form>
+      </div>
+      <script type='text/javascript'>
+        if (typeof gf_global == 'undefined') var gf_global = {
+          "gf_currency_config": {
+            "name": "Dollar Canadien",
+            "symbol_left": "$",
+            "symbol_right": "CAD",
+            "symbol_padding": " ",
+            "thousand_separator": ",",
+            "decimal_separator": ".",
+            "decimals": 2
+          },
+          "base_url": "http:\/\/hydrosol.ca\/wp-content\/plugins\/gravityforms",
+          "number_formats": [],
+          "spinnerUrl": "http:\/\/hydrosol.ca\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"
+        };
+        jQuery(document).bind('gform_post_render', function(event, formId, currentPage) {
+          if (formId == 1) {
+            gf_global["number_formats"][1] = {
+              "1": false,
+              "4": false,
+              "2": false,
+              "3": false,
+              "7": false,
+              "8": false,
+              "9": false,
+              "28": false,
+              "10": false,
+              "12": false,
+              "11": false,
+              "14": false,
+              "15": false,
+              "13": false,
+              "16": false,
+              "17": false,
+              "18": false,
+              "45": false,
+              "36": false,
+              "34": false,
+              "35": false,
+              "37": false,
+              "20": false,
+              "22": false,
+              "21": false,
+              "23": false,
+              "24": false,
+              "25": false,
+              "26": false,
+              "27": false,
+              "31": false,
+              "33": false,
+              "32": false,
+              "38": false,
+              "40": false,
+              "39": false,
+              "43": false,
+              "42": false,
+              "44": false,
+              "41": false
+            };
+            if (window['jQuery']) {
+              if (!window['gf_form_conditional_logic']) window['gf_form_conditional_logic'] = new Array();
+              window['gf_form_conditional_logic'][1] = {
+                logic: {
+                  4: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Commercial"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  2: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Commercial"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  3: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Commercial"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  7: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Commercial"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  8: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Commercial"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  9: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Commercial"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  28: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Commercial"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  10: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Commercial"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  12: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Commercial"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  11: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Commercial"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  14: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Commercial"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  15: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Commercial"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  13: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Commercial"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  16: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Commercial"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  17: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Commercial"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  18: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Commercial"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  45: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Commercial"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  36: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Commercial"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  34: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Commercial"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  35: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Commercial"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  37: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Commercial"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  20: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Residentiel"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  22: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Residentiel"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  21: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Residentiel"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  23: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Residentiel"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  24: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Residentiel"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  25: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Residentiel"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  26: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Residentiel"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  27: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Residentiel"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  31: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Residentiel"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  33: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Residentiel"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  32: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Residentiel"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  38: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Residentiel"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  40: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Residentiel"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  39: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Residentiel"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  43: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Residentiel"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  42: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Residentiel"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  44: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Residentiel"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  },
+                  41: {
+                    "field": {
+                      "actionType": "show",
+                      "logicType": "all",
+                      "rules": [{
+                        "fieldId": "1",
+                        "operator": "is",
+                        "value": "Residentiel"
+                      }]
+                    },
+                    "nextButton": null,
+                    "section": null
+                  }
+                },
+                dependents: {
+                  4: [4],
+                  2: [2],
+                  3: [3],
+                  7: [7],
+                  8: [8],
+                  9: [9],
+                  28: [28],
+                  10: [10],
+                  12: [12],
+                  11: [11],
+                  14: [14],
+                  15: [15],
+                  13: [13],
+                  16: [16],
+                  17: [17],
+                  18: [18],
+                  45: [45],
+                  36: [36],
+                  34: [34],
+                  35: [35],
+                  37: [37],
+                  20: [20],
+                  22: [22],
+                  21: [21],
+                  23: [23],
+                  24: [24],
+                  25: [25],
+                  26: [26],
+                  27: [27],
+                  31: [31],
+                  33: [33],
+                  32: [32],
+                  38: [38],
+                  40: [40],
+                  39: [39],
+                  43: [43],
+                  42: [42],
+                  44: [44],
+                  41: [41]
+                },
+                animation: 0,
+                defaults: {
+                  "44": "Non"
+                },
+                fields: {
+                  "1": [4, 2, 3, 7, 8, 9, 28, 10, 12, 11, 14, 15, 13, 16, 17, 18, 45, 36, 34, 35, 37, 20, 22, 21, 23, 24, 25, 26, 27, 31, 33, 32, 38, 40, 39, 43, 42, 44, 41],
+                  "4": [],
+                  "2": [],
+                  "3": [],
+                  "7": [],
+                  "8": [],
+                  "9": [],
+                  "28": [],
+                  "10": [],
+                  "12": [],
+                  "11": [],
+                  "14": [],
+                  "15": [],
+                  "13": [],
+                  "16": [],
+                  "17": [],
+                  "18": [],
+                  "45": [],
+                  "36": [],
+                  "34": [],
+                  "35": [],
+                  "37": [],
+                  "20": [],
+                  "22": [],
+                  "21": [],
+                  "23": [],
+                  "24": [],
+                  "25": [],
+                  "26": [],
+                  "27": [],
+                  "31": [],
+                  "33": [],
+                  "32": [],
+                  "38": [],
+                  "40": [],
+                  "39": [],
+                  "43": [],
+                  "42": [],
+                  "44": [],
+                  "41": []
+                }
+              };
+              if (!window['gf_number_format']) window['gf_number_format'] = 'decimal_comma';
+              jQuery(document).ready(function() {
+                gf_apply_rules(1, [4, 2, 3, 7, 8, 9, 28, 10, 12, 11, 14, 15, 13, 16, 17, 18, 45, 36, 34, 35, 37, 20, 22, 21, 23, 24, 25, 26, 27, 31, 33, 32, 38, 40, 39, 43, 42, 44, 41], true);
+                jQuery('#gform_wrapper_1').show();
+                jQuery(document).trigger('gform_post_conditional_logic', [1, null, true]);
+              });
+            }
+            if (!/(android)/i.test(navigator.userAgent)) {
+              jQuery('#input_1_9').mask('(999) 999-9999').bind('keypress', function(e) {
+                if (e.which == 13) {
+                  jQuery(this).blur();
+                }
+              });
+            }
+            if (!/(android)/i.test(navigator.userAgent)) {
+              jQuery('#input_1_26').mask('(999) 999-9999').bind('keypress', function(e) {
+                if (e.which == 13) {
+                  jQuery(this).blur();
+                }
+              });
+            }
+          }
+        });
+        jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit) {});
+      </script>
+      <script type='text/javascript'>
+        jQuery(document).ready(function() {
+          jQuery(document).trigger('gform_post_render', [1, 1])
+        });
+      </script>
+    </div>

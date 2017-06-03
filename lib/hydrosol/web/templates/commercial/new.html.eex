@@ -1,0 +1,6 @@
+<h2>New Commercial</h2>
+
+<%= render "form.html", changeset: @changeset,
+                        action: commercial_path(@conn, :create) %>
+
+<span><%= link "Back", to: commercial_path(@conn, :index) %></span>

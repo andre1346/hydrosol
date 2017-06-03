@@ -1,0 +1,105 @@
+<div>
+  <div id="page" class="hfeed site">
+    <div id="banner">
+      <div id="menu-wrapper">
+        <header id="masthead" class="sticky" role="banner">
+          <a href="#mmenu" id="open-mmenu"></a>
+          <div class="c12">
+            <div class="c2">
+              <a class="home-link" href="http://hydrosol.ca/" title="Hydrosol ensemencement" rel="home">
+                    </a>
+            </div>
+
+            <div id="navbar" class="navbar c6">
+              <nav id="site-navigation" class="navigation main-navigation" role="navigation">
+                <div class="menu-menu-principal-container">
+                  <ul id="menu-menu-principal" class="nav-menu">
+                    <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><%= link "A Propos", to: page_path(@conn, :about)  %></li>
+                    <li id="menu-item-156" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-156"><%= link "Résidentiel", to: page_path(@conn, :res_services)  %>
+                      <ul class="sub-menu">
+                        <li id="menu-item-183" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-183"><a href="http://hydrosol.ca/residentiel/services/">Services</a></li>
+                        <li id="menu-item-182" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><a href="http://hydrosol.ca/residentiel/produits/">Produits</a></li>
+                        <li id="menu-item-161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-161"><a href="http://hydrosol.ca/residentiel/realisations/">Réalisations</a></li>
+                      </ul>
+                    </li>
+                    <li id="menu-item-167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-167"><a href="http://hydrosol.ca/commercial/">Commercial</a>
+                      <ul class="sub-menu">
+                        <li id="menu-item-180" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-180"><a href="http://hydrosol.ca/commercial/services/">Services</a></li>
+                        <li id="menu-item-181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><a href="http://hydrosol.ca/commercial/produits/">Produits</a></li>
+                        <li id="menu-item-168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"><a href="http://hydrosol.ca/commercial/realisations/">Réalisations</a></li>
+                      </ul>
+                    </li>
+                    <li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="http://hydrosol.ca/contact/">Contact</a></li>
+                  </ul>
+                </div>
+              </nav>
+              <!-- #site-navigation -->
+            </div>
+            <!-- #navbar -->
+
+            <div class="c4">
+              <ul id="secondNav" class="clearfix">
+                <li id="phone"><a href="tel:450-961-1131">(450) 961-1131</a></li>
+                <li><a href="/demande-de-soumission-residentiel-ou-commercial/">Demande de soumission</a></li>
+                <li><a href="/nouvelles/">Nouvelles</a></li>
+                <li><a href="/faq/">Faq</a></li>
+                <!--<li class="social"><a href="#"><img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/icon-yt.png" alt="Youtube" /></a></li>-->
+                <li class="social"><a href="https://www.facebook.com/hydrosol.ca" target="_blank"><img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/icon-fb.png" alt="Facebook" /></a></li>
+              </ul>
+            </div>
+
+
+
+            <nav id="mmenu">
+              <ul>
+                <li class="demande"><a href="/demande-de-soumission-ensemencement-hydraulique/">Demande de soumission</a></li>
+                <li><a href="tel:450-961-1131">(450) 961-1131</a></li>
+                <li class="social">
+                  <!--<a href="#"><img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/icon-yt.png" alt="Youtube" /></a>-->
+                  <a href="https://www.facebook.com/hydrosol.ca" target="_blank"><img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/icon-fb.png" alt="Facebook" /></a>
+                </li>
+
+
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="http://hydrosol.ca/a-propos/">À propos</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-156"><a href="http://hydrosol.ca/residentiel/">Résidentiel</a>
+                  <ul class="sub-menu">
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-183"><a href="http://hydrosol.ca/residentiel/services/">Services</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><a href="http://hydrosol.ca/residentiel/produits/">Produits</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-161"><a href="http://hydrosol.ca/residentiel/realisations/">Réalisations</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-167"><a href="http://hydrosol.ca/commercial/">Commercial</a>
+                  <ul class="sub-menu">
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-180"><a href="http://hydrosol.ca/commercial/services/">Services</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><a href="http://hydrosol.ca/commercial/produits/">Produits</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"><a href="http://hydrosol.ca/commercial/realisations/">Réalisations</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="http://hydrosol.ca/contact/">Contact</a></li>
+                <li><a href="/nouvelles/">Nouvelles</a></li>
+                <li><a href="/faq/">Faq</a></li>
+
+
+                <li class="pseudoFooter">
+                  <a>Fier partenaire</a>
+                  <img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/pseudoFooter2.jpg" alt="Partenaires" />
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+      </div>
+      <div id="header-bg">
+        <img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/image-header.jpg" alt="Bannière résidentiel commercial" />
+        <div class="c12">
+          <a href="/residentiel/services"><h1>Services résidentiels</h1></a>
+          <a href="/commercial/services"><h1>Services commerciaux</h1></a>
+        </div>
+        <img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/Hydrosol_logo_Center.png" alt="Hydrosol Ensemencement hydraulique" />
+        <div class="c12">
+          <div class="c6 symbol"><img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/graphics/symbol-home.png" alt="symbol résidentiel" /></div>
+          <div class="c6 symbol"><img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/graphics/symbol-casque.png" alt="symbol commercial" /></div>
+        </div>
+      </div>
+    </div>
+    <!-- #banner -->

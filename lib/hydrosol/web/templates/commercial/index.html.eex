@@ -1,0 +1,66 @@
+<h2>Listing Commercials</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Nom</th>
+      <th>Contact</th>
+      <th>Address</th>
+      <th>Ville</th>
+      <th>Codepostal</th>
+      <th>Tel</th>
+      <th>Email</th>
+      <th>Info projet</th>
+      <th>Adresse projet</th>
+      <th>Superficie</th>
+      <th>Caracteristique travaux</th>
+      <th>Type service</th>
+      <th>Complementaire</th>
+      <th>Echeance</th>
+      <th>More detail echeance</th>
+      <th>Pente</th>
+      <th>Fournisseur</th>
+      <th>Etat terrain</th>
+      <th>Easy access</th>
+      <th>Irrigation</th>
+      <th>Comment</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for commercial <- @commercials do %>
+    <tr>
+      <td><%= commercial.nom %></td>
+      <td><%= commercial.contact %></td>
+      <td><%= commercial.address %></td>
+      <td><%= commercial.ville %></td>
+      <td><%= commercial.codepostal %></td>
+      <td><%= commercial.tel %></td>
+      <td><%= commercial.email %></td>
+      <td><%= commercial.info_projet %></td>
+      <td><%= commercial.adresse_projet %></td>
+      <td><%= commercial.superficie %></td>
+      <td><%= commercial.caracteristique_travaux %></td>
+      <td><%= commercial.type_service %></td>
+      <td><%= commercial.complementaire %></td>
+      <td><%= commercial.echeance %></td>
+      <td><%= commercial.more_detail_echeance %></td>
+      <td><%= commercial.pente %></td>
+      <td><%= commercial.fournisseur %></td>
+      <td><%= commercial.etat_terrain %></td>
+      <td><%= commercial.easy_access %></td>
+      <td><%= commercial.irrigation %></td>
+      <td><%= commercial.comment %></td>
+
+      <td class="text-right">
+        <span><%= link "Show", to: commercial_path(@conn, :show, commercial), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Edit", to: commercial_path(@conn, :edit, commercial), class: "btn btn-default btn-xs" %></span>
+        <span><%= link "Delete", to: commercial_path(@conn, :delete, commercial), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Commercial", to: commercial_path(@conn, :new) %></span>

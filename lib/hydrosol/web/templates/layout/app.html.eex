@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
+	<title>Ensemencement hydraulique – Hydrosol</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://hydrosol.ca/xmlrpc.php">
+	<link rel="icon" type="image/png" href="http://hydrosol.codems.ca/favicon.png">
+
+	<!-- This site is optimized with the Yoast SEO plugin v4.7.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="Pour vos besoins d’hydro-ensemencement, résidentiels ou commerciaux, faites appel à Hydrosol, le leader de l’ensemencement hydraulique (gazon liquide)." />
+	<meta name="robots" content="noodp" />
+
+	<!-- Link StyleSheets -->
+	<%= render "stylesheet.html", assigns %>
+	<link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+</head>
+
+<body class="home page-template page-template-template-home page-template-template-home-php page page-id-2 single-author page-accueil">
+		<%= render "nav.html", assigns %>
+		<%= render @view_module, @view_template, assigns %>
+		<%= render "footer.html", assigns %>
+
+			<!-- Javascript -->
+		<%= render "script.html", assigns %>
+
+		</div>
+	</div>
+</body>
+</html>

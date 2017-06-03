@@ -1,0 +1,113 @@
+<h2>Show Commercial</h2>
+
+<ul>
+
+  <li>
+    <strong>Nom:</strong>
+    <%= @commercial.nom %>
+  </li>
+
+  <li>
+    <strong>Contact:</strong>
+    <%= @commercial.contact %>
+  </li>
+
+  <li>
+    <strong>Address:</strong>
+    <%= @commercial.address %>
+  </li>
+
+  <li>
+    <strong>Ville:</strong>
+    <%= @commercial.ville %>
+  </li>
+
+  <li>
+    <strong>Codepostal:</strong>
+    <%= @commercial.codepostal %>
+  </li>
+
+  <li>
+    <strong>Tel:</strong>
+    <%= @commercial.tel %>
+  </li>
+
+  <li>
+    <strong>Email:</strong>
+    <%= @commercial.email %>
+  </li>
+
+  <li>
+    <strong>Info projet:</strong>
+    <%= @commercial.info_projet %>
+  </li>
+
+  <li>
+    <strong>Adresse projet:</strong>
+    <%= @commercial.adresse_projet %>
+  </li>
+
+  <li>
+    <strong>Superficie:</strong>
+    <%= @commercial.superficie %>
+  </li>
+
+  <li>
+    <strong>Caracteristique travaux:</strong>
+    <%= @commercial.caracteristique_travaux %>
+  </li>
+
+  <li>
+    <strong>Type service:</strong>
+    <%= @commercial.type_service %>
+  </li>
+
+  <li>
+    <strong>Complementaire:</strong>
+    <%= @commercial.complementaire %>
+  </li>
+
+  <li>
+    <strong>Echeance:</strong>
+    <%= @commercial.echeance %>
+  </li>
+
+  <li>
+    <strong>More detail echeance:</strong>
+    <%= @commercial.more_detail_echeance %>
+  </li>
+
+  <li>
+    <strong>Pente:</strong>
+    <%= @commercial.pente %>
+  </li>
+
+  <li>
+    <strong>Fournisseur:</strong>
+    <%= @commercial.fournisseur %>
+  </li>
+
+  <li>
+    <strong>Etat terrain:</strong>
+    <%= @commercial.etat_terrain %>
+  </li>
+
+  <li>
+    <strong>Easy access:</strong>
+    <%= @commercial.easy_access %>
+  </li>
+
+  <li>
+    <strong>Irrigation:</strong>
+    <%= @commercial.irrigation %>
+  </li>
+
+  <li>
+    <strong>Comment:</strong>
+    <%= @commercial.comment %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: commercial_path(@conn, :edit, @commercial) %></span>
+<span><%= link "Back", to: commercial_path(@conn, :index) %></span>

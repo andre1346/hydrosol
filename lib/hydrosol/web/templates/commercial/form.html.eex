@@ -1,0 +1,137 @@
+<%= form_for @changeset, @action, fn f -> %>
+  <%= if @changeset.action do %>
+    <div class="alert alert-danger">
+      <p>Oops, something went wrong! Please check the errors below.</p>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= label f, :nom, class: "control-label" %>
+    <%= text_input f, :nom, class: "form-control" %>
+    <%= error_tag f, :nom %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :contact, class: "control-label" %>
+    <%= text_input f, :contact, class: "form-control" %>
+    <%= error_tag f, :contact %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :address, class: "control-label" %>
+    <%= text_input f, :address, class: "form-control" %>
+    <%= error_tag f, :address %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :ville, class: "control-label" %>
+    <%= text_input f, :ville, class: "form-control" %>
+    <%= error_tag f, :ville %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :codepostal, class: "control-label" %>
+    <%= text_input f, :codepostal, class: "form-control" %>
+    <%= error_tag f, :codepostal %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :tel, class: "control-label" %>
+    <%= text_input f, :tel, class: "form-control" %>
+    <%= error_tag f, :tel %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :email, class: "control-label" %>
+    <%= text_input f, :email, class: "form-control" %>
+    <%= error_tag f, :email %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :info_projet, class: "control-label" %>
+    <%= text_input f, :info_projet, class: "form-control" %>
+    <%= error_tag f, :info_projet %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :adresse_projet, class: "control-label" %>
+    <%= text_input f, :adresse_projet, class: "form-control" %>
+    <%= error_tag f, :adresse_projet %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :superficie, class: "control-label" %>
+    <%= text_input f, :superficie, class: "form-control" %>
+    <%= error_tag f, :superficie %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :caracteristique_travaux, class: "control-label" %>
+    <%= text_input f, :caracteristique_travaux, class: "form-control" %>
+    <%= error_tag f, :caracteristique_travaux %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :type_service, class: "control-label" %>
+    <%= text_input f, :type_service, class: "form-control" %>
+    <%= error_tag f, :type_service %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :complementaire, class: "control-label" %>
+    <%= text_input f, :complementaire, class: "form-control" %>
+    <%= error_tag f, :complementaire %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :echeance, class: "control-label" %>
+    <%= text_input f, :echeance, class: "form-control" %>
+    <%= error_tag f, :echeance %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :more_detail_echeance, class: "control-label" %>
+    <%= text_input f, :more_detail_echeance, class: "form-control" %>
+    <%= error_tag f, :more_detail_echeance %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :pente, class: "control-label" %>
+    <%= text_input f, :pente, class: "form-control" %>
+    <%= error_tag f, :pente %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :fournisseur, class: "control-label" %>
+    <%= text_input f, :fournisseur, class: "form-control" %>
+    <%= error_tag f, :fournisseur %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :etat_terrain, class: "control-label" %>
+    <%= text_input f, :etat_terrain, class: "form-control" %>
+    <%= error_tag f, :etat_terrain %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :easy_access, class: "control-label" %>
+    <%= checkbox f, :easy_access, class: "checkbox" %>
+    <%= error_tag f, :easy_access %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :irrigation, class: "control-label" %>
+    <%= checkbox f, :irrigation, class: "checkbox" %>
+    <%= error_tag f, :irrigation %>
+  </div>
+
+  <div class="form-group">
+    <%= label f, :comment, class: "control-label" %>
+    <%= text_input f, :comment, class: "form-control" %>
+    <%= error_tag f, :comment %>
+  </div>
+
+  <div class="form-group">
+    <%= submit "Submit", class: "btn btn-primary" %>
+  </div>
+<% end %>

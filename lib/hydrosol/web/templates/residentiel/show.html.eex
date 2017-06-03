@@ -1,0 +1,88 @@
+<h2>Show Residentiel</h2>
+
+<ul>
+
+  <li>
+    <strong>Nom:</strong>
+    <%= @residentiel.nom %>
+  </li>
+
+  <li>
+    <strong>Prenom:</strong>
+    <%= @residentiel.prenom %>
+  </li>
+
+  <li>
+    <strong>Address:</strong>
+    <%= @residentiel.address %>
+  </li>
+
+  <li>
+    <strong>Ville:</strong>
+    <%= @residentiel.ville %>
+  </li>
+
+  <li>
+    <strong>Codepostal:</strong>
+    <%= @residentiel.codepostal %>
+  </li>
+
+  <li>
+    <strong>Tel:</strong>
+    <%= @residentiel.tel %>
+  </li>
+
+  <li>
+    <strong>Email:</strong>
+    <%= @residentiel.email %>
+  </li>
+
+  <li>
+    <strong>Info projet:</strong>
+    <%= @residentiel.info_projet %>
+  </li>
+
+  <li>
+    <strong>Superficie:</strong>
+    <%= @residentiel.superficie %>
+  </li>
+
+  <li>
+    <strong>Complementaire:</strong>
+    <%= @residentiel.complementaire %>
+  </li>
+
+  <li>
+    <strong>Pente:</strong>
+    <%= @residentiel.pente %>
+  </li>
+
+  <li>
+    <strong>Fournisseur:</strong>
+    <%= @residentiel.fournisseur %>
+  </li>
+
+  <li>
+    <strong>Etat terrain:</strong>
+    <%= @residentiel.etat_terrain %>
+  </li>
+
+  <li>
+    <strong>Easy access:</strong>
+    <%= @residentiel.easy_access %>
+  </li>
+
+  <li>
+    <strong>Irrigation:</strong>
+    <%= @residentiel.irrigation %>
+  </li>
+
+  <li>
+    <strong>Comment:</strong>
+    <%= @residentiel.comment %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: residentiel_path(@conn, :edit, @residentiel) %></span>
+<span><%= link "Back", to: residentiel_path(@conn, :index) %></span>

@@ -1,0 +1,75 @@
+    <article id="post-18">
+                <header>
+                    <h1>Contact</h1>
+                </header>
+
+                <div class="entry-content contact">
+
+                				<section class="basic">
+				<div class="c12">
+										<h6><span style="color: #000000;">N’hésitez pas à nous contacter que ce soit pour des questions techniques ou pour nous faire parvenir des photos de vos projets les plus ambitieux !</span></h6>
+<p>&nbsp;</p>
+<h6><span style="color: #000000;">Pour l&rsquo;envoi de vos documents ou photos, veuillez les faire parvenir à <span style="text-decoration: underline;"><a style="color: #000000; text-decoration: underline;" href="mailto:reception@hydrosol.ca">reception@hydrosol.ca</a></span>.</span></h6>
+<p>&nbsp;</p>
+<h6><span style="color: #000000;">Vous pouvez nous joindre au :</span></h6>
+				</div>
+			</section>
+
+						<section class="basic green">
+					<div class="c12 zoneForm">
+						<div class="c3">
+						<p><strong>Hydrosol Ensemencement</strong></p>
+<p>1372 avenue de la Gare<br />
+Mascouche (Québec)<br />
+J7K 2Z2</p>
+<p><strong>Téléphone</strong> : <a href="tel:4509611131">(450) 961-1131</a><br />
+<strong>Télécopieur</strong>: (450) 961-1132<br />
+<strong>Sans Frais</strong> : <a href="tel:18669613111">1-866-961-3111</a></p>
+<a href="https://www.facebook.com/hydrosol.ca" target="_blank"><img src="http://hydrosol.ca/wp-content/uploads/2015/03/icone_facebook.png" alt="icone_facebook" /></a> 						</div>
+						<div class="c9">
+							<div role="form" class="wpcf7" id="wpcf7-f132-p18-o1" lang="fr-FR" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="/contact/#wpcf7-f132-p18-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="132" />
+<input type="hidden" name="_wpcf7_version" value="4.7" />
+<input type="hidden" name="_wpcf7_locale" value="fr_FR" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f132-p18-o1" />
+<input type="hidden" name="_wpnonce" value="ed9a4f1653" />
+</div>
+<div class="c7">
+<p><span class="wpcf7-form-control-wrap nom"><input type="text" name="nom" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Nom :" /></span></p>
+<p><span class="wpcf7-form-control-wrap courriel"><input type="email" name="courriel" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Courriel :" /></span> </p>
+<p><span class="wpcf7-form-control-wrap adresse"><input type="text" name="adresse" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Adresse :" /></span></p>
+<p><span class="wpcf7-form-control-wrap ville"><input type="text" name="ville" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Ville :" /></span></p>
+<p><span class="wpcf7-form-control-wrap code-postal"><input type="text" name="code-postal" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Code Postal :" /></span></p>
+<p><span class="wpcf7-form-control-wrap tel"><input type="tel" name="tel" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Tél." /></span></p>
+</div>
+<div class="c5">
+<p><span class="wpcf7-form-control-wrap message"><textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message :"></textarea></span></p>
+<p><input type="submit" value="ENVOYER &gt;" class="wpcf7-form-control wpcf7-submit" /></p>
+</div>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
+						</div>
+
+                        <div class="c12 two-col-smaller">
+                            <div class="c6">
+                                <p><strong>Grands Projets</strong> : Hydrosol dessert tout le Québec pour ses projets de grande envergure.</p>
+                            </div>
+                            <div class="c6">
+                                <p><strong>Résidentiel</strong> : Les régions desservies pour les projets résidentiels sont les grandes régions de la Ville de Montréal (Rive-Sud et Rive-Nord) et de Québec (Capitale nationale).</p>
+                            </div>
+                        </div>
+					</div>
+
+				</section>
+
+
+                </div>
+
+            </article><!-- #post -->
+
+            </div><!-- #content -->
+
+
+		</div><!-- #main -->

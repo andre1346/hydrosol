@@ -1,0 +1,46 @@
+
+
+<div id="main" class="site-main">
+
+<div id="content" class="site-content" role="main">
+
+<article id="post-2">
+
+<div class="entry-content">
+<div id="twoButtons">
+<div class="c12">
+<div class="c6">
+  <div class="mobBanners hidden">
+      <a href="/residentiel/">
+          <div class="c6 symbol"><img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/graphics/symbol-home.png" alt="symbol résidentiel" /></div>
+          <h1>Services résidentiels</h1>
+          <img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/mob-res.jpg" alt="Bannière résidentiel" />
+        </a>
+    </div>
+
+  <a class="btSquare" href="http://hydrosol.ca/demande-de-soumission-residentiel-ou-commercial/?demande=Residentiel">Demandez une soumission</a>
+
+</div>
+<div class="c6">
+  <div class="mobBanners hidden">
+      <a href="/commercial/">
+          <div class="c6 symbol"><img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/graphics/symbol-casque.png" alt="symbol commercial" /></div>
+          <h1>Services commerciaux</h1>
+          <img src="http://hydrosol.ca/wp-content/themes/hydrosol/images/mob-com.jpg" alt="Bannière commercial" />
+        </a>
+  </div>
+
+                  <a class="btSquare" href="http://hydrosol.ca/demande-de-soumission-residentiel-ou-commercial/?demande=Commercial">Demandez une soumission</a>
+
+                                              </div>
+                </div>
+                </div>
+                </div><!-- .entry-content -->
+
+                </article><!-- #post -->
+
+
+                </div><!-- #content -->
+
+
+                </div><!-- #main -->
