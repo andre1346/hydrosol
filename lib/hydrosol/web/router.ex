@@ -31,6 +31,7 @@ defmodule Hydrosol.Web.Router do
     resources "/residentiels", ResidentielController
     resources "/commercials", CommercialController
     get "/faq", PageController, :faq
+    
 end
 
   # Other scopes may use custom stacks.
