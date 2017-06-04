@@ -10,7 +10,7 @@ exports.config = {
         ]
       },
 
-      // To use a separate vendor.js bundle, specify two files path
+      //  To use a separate vendor.js bundle, specify two files path
       // http://brunch.io/docs/config#-files-
       // joinTo: {
       //  "js/app.js": /^(js)/,
@@ -30,6 +30,7 @@ exports.config = {
       order: {
         before: [
           "vendor/css/font_google.css",
+<<<<<<< HEAD
           // Ajoute ici les fichiers que tu mets dans vendor/css
           "css/style.css",
         "vendor/css/font_style.css",
@@ -39,6 +40,16 @@ exports.config = {
         "vendor/css/colorbox.css",
         "vendor/css/custom.css",
         "vendor/css/responsive.css"
+=======
+          // "vendor/css/font_theme.css",
+          // "vendor/css/font_style.css",
+          // "vendor/css/font_awesome.css",
+          // "vendor/css/font_menu.css",
+          // "vendor/css/colorbox.css",
+          // "vendor/css/custom.css",
+          // "vendor/css/responsive.css",
+          "css/style.css"
+>>>>>>> ccf5e884713a2488f809e3e0d9e5e7ec6fedb42a
         ]
       }
     },

@@ -1,7 +1,15 @@
 
 
+<<<<<<< HEAD
 <link rel='stylesheet' id='structure-style-css' href='http://hydrosol.ca/wp-content/themes/hydrosol/style.css?ver=20.0' type='text/css' media='all' />
 
 
+=======
+<link rel='stylesheet' id='genericons-css' href='http://hydrosol.ca/wp-content/themes/hydrosol/fonts/genericons.css?ver=2.09' type='text/css' media='all' />
+<link rel='stylesheet' id='structure-style-css' href='http://hydrosol.ca/wp-content/themes/hydrosol/style.css?ver=20.0' type='text/css' media='all' />
+<link rel="stylesheet" type="text/css" href="http://hydrosol.ca/wp-content/themes/hydrosol/css/font-awesome.min.css?v=1.0">
+<link rel="stylesheet" type="text/css" href="http://hydrosol.ca/wp-content/themes/hydrosol/css/mmenu.all.css?v=1.0">
+<link rel="stylesheet" type="text/css" href="http://hydrosol.ca/wp-content/themes/hydrosol/css/colorbox.css?v=1.0">
+>>>>>>> ccf5e884713a2488f809e3e0d9e5e7ec6fedb42a
 <link rel="stylesheet" type="text/css" href="http://hydrosol.ca/wp-content/themes/hydrosol/css/custom.css?v=752">
 <link rel="stylesheet" type="text/css" href="http://hydrosol.ca/wp-content/themes/hydrosol/css/responsive.css?v=1.3">
