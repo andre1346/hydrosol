@@ -1,15 +1,15 @@
 <!-- Javascript -->
-<script type='text/javascript' src='http://hydrosol.ca/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript' src='http://hydrosol.ca/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+
+<
 <link rel='https://api.w.org/' href='http://hydrosol.ca/wp-json/' />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 
 
-<script type='text/javascript' src='http://hydrosol.ca/wp-content/themes/hydrosol/js/functions.js?ver=2014-03-18'></script>
-<script type='text/javascript' src='http://hydrosol.ca/wp-includes/js/wp-embed.min.js?ver=4.7.5'></script>
+
+
 <script type='text/javascript' src='http://hydrosol.ca/wp-content/themes/hydrosol/js/jquery.mmenu.min.all.js?ver=1.0'></script>
-<script type='text/javascript' src='http://hydrosol.ca/wp-content/themes/hydrosol/js/jquery.colorbox-min.js?ver=1.0'></script>
+
 <script type='text/javascript' src='http://hydrosol.ca/wp-content/themes/hydrosol/js/script.js?ver=1.6'></script>
 
 <script>
