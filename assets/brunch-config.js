@@ -5,8 +5,14 @@ exports.config = {
       joinTo: "js/app.js",
       order: {
         before: [
-          "vendor/js/jquery-2.1.1.js",
-          "vendor/js/bootstrap.min.js"
+          "vendor/js/jquery.js",
+          "vendor/js/jquery.migrate.js",
+          //"vendor/js/libs_jquery.js"
+          "vendor/js/functions.js",
+          "vendor/js/jsembed.js",
+          //"vendor/js/jsmenu.js",
+          "vendor/js/js_colorbox.js",
+        //  "vendor/js/js.script.js"
         ]
       },
 
@@ -29,15 +35,15 @@ exports.config = {
       joinTo: "css/app.css",
       order: {
         before: [
-          "vendor/css/font_google.css",
-          // "vendor/css/font_theme.css",
-          // "vendor/css/font_style.css",
-          // "vendor/css/font_awesome.css",
-          // "vendor/css/font_menu.css",
-          // "vendor/css/colorbox.css",
-          // "vendor/css/custom.css",
-          // "vendor/css/responsive.css",
-          "css/style.css"
+           "vendor/css/font_google.css",
+           "vendor/css/font_genericons.css",
+           //"vendor/css/themes_style.css",
+           "vendor/css/font_awesome.css",
+           "vendor/css/font_menu.css",
+           "vendor/css/font_colorbox.css",
+           "vendor/css/custom.css",
+           "vendor/css/responsive.css",
+           "css/style.css"
 
         ]
       }
