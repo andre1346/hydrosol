@@ -17,19 +17,19 @@
                     <li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><%= link "A Propos", to: page_path(@conn, :about)  %></li>
                     <li id="menu-item-156" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-156"><%= link "Résidentiel", to: page_path(@conn, :res_services)  %>
                       <ul class="sub-menu">
-                        <li id="menu-item-183" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-183"><a href="http://hydrosol.ca/residentiel/services/">Services</a></li>
-                        <li id="menu-item-182" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><a href="http://hydrosol.ca/residentiel/produits/">Produits</a></li>
-                        <li id="menu-item-161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-161"><a href="http://hydrosol.ca/residentiel/realisations/">Réalisations</a></li>
+                        <li id="menu-item-183" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-183"><%= link "Services", to: page_path(@conn, :res_services) %></li>
+                        <li id="menu-item-182" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><%= link "Produits", to: page_path(@conn, :res_produits) %></li>
+                        <li id="menu-item-161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-161"><%= link "realisations", to: page_path(@conn, :res_realisations) %></li>
                       </ul>
                     </li>
-                    <li id="menu-item-167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-167"><a href="http://hydrosol.ca/commercial/">Commercial</a>
+                    <li id="menu-item-167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-167"><%= link "Commercial", to: page_path(@conn, :com_services) %>
                       <ul class="sub-menu">
-                        <li id="menu-item-180" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-180"><a href="http://hydrosol.ca/commercial/services/">Services</a></li>
-                        <li id="menu-item-181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><a href="http://hydrosol.ca/commercial/produits/">Produits</a></li>
-                        <li id="menu-item-168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"><a href="http://hydrosol.ca/commercial/realisations/">Réalisations</a></li>
+                        <li id="menu-item-180" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-180"><%= link "services", to: page_path(@conn, :com_services) %></li>
+                        <li id="menu-item-181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><%= link "produits", to: page_path(@conn, :com_produits) %></li>
+                        <li id="menu-item-168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"><%= link "realisations", to: page_path(@conn, :com_realisations) %><</li>
                       </ul>
                     </li>
-                    <li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="http://hydrosol.ca/contact/">Contact</a></li>
+                    <li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><%= link "contact", to: page_path(@conn, :contact)  %></li>
                   </ul>
                 </div>
               </nav>
@@ -60,23 +60,22 @@
                 </li>
 
 
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="http://hydrosol.ca/a-propos/">À propos</a></li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-156"><a href="http://hydrosol.ca/residentiel/">Résidentiel</a>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><%= link "A Propos", to: page_path(@conn, :about)  %></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-156"><%= link "Résidentiel", to: page_path(@conn, :res_services)  %></a>
                   <ul class="sub-menu">
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-183"><a href="http://hydrosol.ca/residentiel/services/">Services</a></li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><a href="http://hydrosol.ca/residentiel/produits/">Produits</a></li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-161"><a href="http://hydrosol.ca/residentiel/realisations/">Réalisations</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-183"><%= link "Services", to: page_path(@conn, :res_services) %></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><%= link "Produits", to: page_path(@conn, :res_produits) %></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-161"><%= link "realisations", to: page_path(@conn, :res_realisations) %></li>
                   </ul>
                 </li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-167"><a href="http://hydrosol.ca/commercial/">Commercial</a>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-167"><%= link "Commercial", to: page_path(@conn, :com_services) %></a>
                   <ul class="sub-menu">
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-180"><a href="http://hydrosol.ca/commercial/services/">Services</a></li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><a href="http://hydrosol.ca/commercial/produits/">Produits</a></li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"><a href="http://hydrosol.ca/commercial/realisations/">Réalisations</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-180"><%= link "services", to: page_path(@conn, :com_services) %></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-181"><%= link "produits", to: page_path(@conn, :com_produits) %></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"><%= link "realisations", to: page_path(@conn, :com_realisations) %><</li>
                   </ul>
                 </li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="http://hydrosol.ca/contact/">Contact</a></li>
-                <li><a href="/nouvelles/">Nouvelles</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><%= link "contact", to: page_path(@conn, :contact)  %></li>
                 <li><a href="/faq/">Faq</a></li>
 
 
